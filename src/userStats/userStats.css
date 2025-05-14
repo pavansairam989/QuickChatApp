@@ -1,0 +1,173 @@
+.fourGroup {
+  padding: 0em 1em 0em 1em;
+}
+@media only screen and (min-width: 30em) {
+  #userStatsGroup {
+    display: none;
+  }
+}
+.userStatsGroup {
+  padding: 0em 0em 0em 2em;
+  max-width: 18em;
+  max-height: 45em;
+}
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  font-family: auto;
+  padding-top: 0.5em;
+}
+.rocket {
+  max-width: 4em;
+  position: absolute;
+  margin-top: -2em;
+}
+.rowAlign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 18em;
+}
+.rowAlign1 {
+  display: flex;
+  max-width: 18em;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.statValue {
+  margin: 0em;
+  font-weight: 900;
+}
+.statName {
+  font-family: auto;
+  margin: 0em;
+  color: black;
+  font-size: smaller;
+}
+.statsValuesGroup {
+  font-size: smaller;
+  padding-left: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timeStatCard {
+  display: flex;
+  min-width: 5em;
+  align-items: center;
+  color: blue;
+  background: #c8f1ff;
+  padding: 0em 1em;
+  border-radius: 1em;
+  flex-direction: row;
+}
+.attendStatCard {
+  display: flex;
+  min-width: 5em;
+  align-items: center;
+  color: green;
+  background: #cefcce;
+  padding: 0em 1em;
+  border-radius: 1em;
+  flex-direction: row;
+}
+.timeCard {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em 0em 0.5em 0em;
+  align-items: center;
+}
+.rejectStatCard {
+  display: flex;
+  min-width: 5em;
+  align-items: center;
+  background: #ffe2b7;
+  color: #ff6e00;
+  padding: 0em 1em;
+  border-radius: 1em;
+  flex-direction: row;
+}
+.meetStatCard {
+  display: flex;
+  min-width: 5em;
+  align-items: center;
+  background: #eacaf8;
+  color: #9707d2;
+  padding: 0em 1em;
+  border-radius: 1em;
+  flex-direction: row;
+}
+.userStats {
+  display: flex;
+  background: aliceblue;
+  border-radius: 1em;
+  border: 1px solid #ebe7fb;
+  flex-direction: column;
+  margin-bottom: 1em;
+  align-items: center;
+  padding: 1em 0em;
+}
+.statsGroup {
+  background: aliceblue;
+  display: flex;
+  margin-bottom: 2em;
+  border: 1px solid #ebe7fb;
+  padding: 1em 0em;
+  border-radius: 1em;
+  flex-direction: column;
+}
+.btnCopyLink {
+  padding: 0.5em;
+  display: flex;
+  width: 8em;
+  color: white;
+  border-width: inherit;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  background: #3151ec;
+  border-color: black;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.copyLink {
+  display: flex;
+  padding: 1em;
+  border: 1px solid #ebe7fb;
+  background: aliceblue;
+  border-radius: 1em;
+  flex-direction: column;
+  align-items: center;
+}
+.archive {
+  max-width: fit-content;
+  max-height: 2.5em;
+  border-color: blue;
+  display: flex;
+  color: blue;
+  margin-left: 4.5em;
+  border-width: thin;
+  background: white;
+  border-radius: 0.5em;
+  align-items: center;
+}
+.archive:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.graph {
+  display: flex;
+  padding-top: 1em;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.current {
+  font-family: inherit;
+  font-size: small;
+  font-weight: bolder;
+}
+.activity {
+  font-size: x-small;
+  color: #767676;
+}

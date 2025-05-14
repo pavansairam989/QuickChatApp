@@ -1,0 +1,66 @@
+.profile {
+  padding: 1em 2em 1em 2em;
+  margin-bottom: 1em;
+  border: 1px solid #ebe7fb;
+  max-width: fit-content;
+  background: aliceblue;
+  border-radius: 1em;
+}
+.role {
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  font-family: system-ui;
+  font-size: small;
+}
+.profileMenu {
+  color: black;
+}
+.moreOptions {
+  color: black;
+  font-size: medium;
+  margin-bottom: -0.5em;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user {
+  display: flex;
+  margin: 1em 0em 0em 0em;
+  align-items: center;
+}
+
+.title {
+  margin-left: 2em;
+}
+
+.profileGroup {
+  margin: 0em 2em 0em 0em;
+  min-width: 12em;
+  padding-top: 1em;
+  max-height: fit-content;
+}
+.userName {
+  display: flex;
+  align-items: center;
+  padding: 1em 0em 0em 0em;
+  margin-left: 0.5em;
+}
+.settingBtn {
+  margin-left: -1.5em;
+  margin-right: -2em;
+  padding: 0em;
+}
+.titleGroup {
+  display: flex;
+  padding: 0em 1em 1em 1em;
+  font-family: system-ui;
+  font-weight: 600;
+}
+.statusSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5em;
+}

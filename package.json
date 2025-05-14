@@ -1,0 +1,56 @@
+{
+  "name": "quick-chat-app",
+  "version": "1.0.0",
+  "description": "Added redux and all other changes mentioned in the list.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "@mui/material": "5.11.4",
+    "@redux-devtools/extension": "3.2.5",
+    "bootstrap": "5.2.3",
+    "bootstrap-switch-button-react": "1.2.0",
+    "connected-react-router": "6.9.3",
+    "copy-to-clipboard": "3.3.3",
+    "core-js-pure": "3.27.1",
+    "echarts": "5.4.1",
+    "echarts-for-react": "3.0.2",
+    "history": "5.3.0",
+    "mdb-react-ui-kit": "5.1.0",
+    "mdbreact": "5.2.0",
+    "mui": "0.0.1",
+    "react": "18.2.0",
+    "react-avatar": "5.0.3",
+    "react-bootstrap": "2.7.0",
+    "react-bootstrap-columnize": "0.2.0-deprecated",
+    "react-bootstrap-dropdown": "0.3.0",
+    "react-chartjs-2": "5.1.0",
+    "react-copy-to-clipboard": "5.1.0",
+    "react-dom": "18.2.0",
+    "react-fusioncharts": "4.0.0",
+    "react-input-emoji": "4.3.0",
+    "react-redux": "8.0.5",
+    "react-scripts": "4.0.0",
+    "react-switch": "7.0.0",
+    "redux": "4.2.0",
+    "redux-devtools-extension": "2.13.9",
+    "redux-thunk": "2.4.2"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
